@@ -11,21 +11,56 @@ This project is a web application designed to organize and save notes in Markdow
 ## Project Structure
 
 ```
-web-notes-project
-├── src
-│   ├── components
-│   │   └── NoteEditor.tsx       # Component for editing notes
-│   ├── pages
-│   │   └── Home.tsx             # Main page displaying notes
-│   ├── styles
-│   │   └── main.css             # Styles for the application
-│   └── utils
-│       └── index.ts             # Utility functions for Markdown handling
-├── public
-│   └── index.html               # Main HTML file
-├── package.json                  # npm configuration
-├── tsconfig.json                 # TypeScript configuration
-└── README.md                     # Project documentation
+web-notes-project/
+├── package.json
+├── package-lock.json
+├── README.md
+├── tsconfig.json
+├── webpack.config.js
+├── .gitignore
+├── notes/
+│   ├── authentication.md
+│   ├── best-practices.md
+│   ├── ci-cd.md
+│   ├── code-snippets.md
+│   ├── coding-standards.md
+│   ├── component-diagram.md
+│   ├── configuration.md
+│   ├── data-flow.md
+│   ├── deployment-guide.md
+│   ├── endpoints.md
+│   ├── environment-setup.md
+│   ├── environments.md
+│   ├── faqs.md
+│   ├── features.md
+│   ├── goals.md
+│   ├── installation.md
+│   ├── integration-tests.md
+│   ├── limitations.md
+│   ├── notes.md
+│   ├── overview.md
+│   ├── references.md
+│   ├── request-response.md
+│   ├── system-design.md
+│   ├── test-cases.md
+│   ├── troubleshooting.md
+│   ├── unit-tests.md
+├── public/
+│   ├── index.html
+├── src/
+│   ├── index.tsx
+│   ├── components/
+│   │   ├── NoteEditor.tsx
+│   │   ├── Sidebar.tsx
+│   │   ├── TabPanel.tsx
+│   │   ├── Tabs.tsx
+│   ├── pages/
+│   │   ├── Home.tsx
+│   ├── styles/
+│   │   ├── main.css
+│   ├── utils/
+│   │   ├── index.ts
+
 ```
 
 ## Setup Instructions
